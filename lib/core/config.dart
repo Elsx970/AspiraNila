@@ -1,6 +1,6 @@
 class AppConfig {
   // Toggle this to switch between internal mock data and actual Laravel REST API
-  static const bool useMockMode = true;
+  static const bool useMockMode = false;
 
   // The base URL of the Laravel REST API backend
   // For local development on Android emulator, use http://10.0.2.2:8000/api
